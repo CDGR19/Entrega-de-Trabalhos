@@ -1,4 +1,5 @@
 # ciclo principal
+
 while True:
     # dados de entrada
     porta = False
