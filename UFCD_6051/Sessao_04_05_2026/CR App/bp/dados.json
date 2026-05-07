@@ -1,0 +1,2932 @@
+[
+  {
+    "id": "1777542257446",
+    "data": "2023-01-01",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257452",
+    "data": "2023-01-07",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257453",
+    "data": "2023-01-08",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257459",
+    "data": "2023-01-14",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257460",
+    "data": "2023-01-15",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257466",
+    "data": "2023-01-21",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257467",
+    "data": "2023-01-22",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257473",
+    "data": "2023-01-28",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257474",
+    "data": "2023-01-29",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257480",
+    "data": "2023-02-04",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257481",
+    "data": "2023-02-05",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257487",
+    "data": "2023-02-11",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257488",
+    "data": "2023-02-12",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257494",
+    "data": "2023-02-18",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257495",
+    "data": "2023-02-19",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257501",
+    "data": "2023-02-25",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257502",
+    "data": "2023-02-26",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257508",
+    "data": "2023-03-04",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257509",
+    "data": "2023-03-05",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257515",
+    "data": "2023-03-11",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257516",
+    "data": "2023-03-12",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257522",
+    "data": "2023-03-18",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257529",
+    "data": "2023-03-25",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257536",
+    "data": "2023-04-01",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257537",
+    "data": "2023-04-02",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257543",
+    "data": "2023-04-08",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257550",
+    "data": "2023-04-15",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257551",
+    "data": "2023-04-16",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257557",
+    "data": "2023-04-22",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257558",
+    "data": "2023-04-23",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257564",
+    "data": "2023-04-29",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257565",
+    "data": "2023-04-30",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257571",
+    "data": "2023-05-06",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257572",
+    "data": "2023-05-07",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257578",
+    "data": "2023-05-13",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257579",
+    "data": "2023-05-14",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257585",
+    "data": "2023-05-20",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257586",
+    "data": "2023-05-21",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257592",
+    "data": "2023-05-27",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257593",
+    "data": "2023-05-28",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257599",
+    "data": "2023-06-03",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257600",
+    "data": "2023-06-04",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257607",
+    "data": "2023-06-11",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257613",
+    "data": "2023-06-17",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257614",
+    "data": "2023-06-18",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257620",
+    "data": "2023-06-24",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257621",
+    "data": "2023-06-25",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257627",
+    "data": "2023-07-01",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257628",
+    "data": "2023-07-02",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257634",
+    "data": "2023-07-08",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257635",
+    "data": "2023-07-09",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257641",
+    "data": "2023-07-15",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257648",
+    "data": "2023-07-22",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257649",
+    "data": "2023-07-23",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257655",
+    "data": "2023-07-29",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257656",
+    "data": "2023-07-30",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257662",
+    "data": "2023-08-05",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257663",
+    "data": "2023-08-06",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257676",
+    "data": "2023-08-19",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257677",
+    "data": "2023-08-20",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257690",
+    "data": "2023-09-02",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257691",
+    "data": "2023-09-03",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257697",
+    "data": "2023-09-09",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257698",
+    "data": "2023-09-10",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257704",
+    "data": "2023-09-16",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257705",
+    "data": "2023-09-17",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257711",
+    "data": "2023-09-23",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257712",
+    "data": "2023-09-24",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257718",
+    "data": "2023-09-30",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257719",
+    "data": "2023-10-01",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257732",
+    "data": "2023-10-14",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257733",
+    "data": "2023-10-15",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257739",
+    "data": "2023-10-21",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257740",
+    "data": "2023-10-22",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257746",
+    "data": "2023-10-28",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257747",
+    "data": "2023-10-29",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257753",
+    "data": "2023-11-04",
+    "dia_semana": "sáb",
+    "entrada_manha": "",
+    "saida_manha": "",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257754",
+    "data": "2023-11-05",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257760",
+    "data": "2023-11-11",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257761",
+    "data": "2023-11-12",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257767",
+    "data": "2023-11-18",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257768",
+    "data": "2023-11-19",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257774",
+    "data": "2023-11-25",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257775",
+    "data": "2023-11-26",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257781",
+    "data": "2023-12-02",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257782",
+    "data": "2023-12-03",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257788",
+    "data": "2023-12-09",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257789",
+    "data": "2023-12-10",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257795",
+    "data": "2023-12-16",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257802",
+    "data": "2023-12-23",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257803",
+    "data": "2023-12-24",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257809",
+    "data": "2023-12-30",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257810",
+    "data": "2023-12-31",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257816",
+    "data": "2024-01-06",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257817",
+    "data": "2024-01-07",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257823",
+    "data": "2024-01-13",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257824",
+    "data": "2024-01-14",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257830",
+    "data": "2024-01-20",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257831",
+    "data": "2024-01-21",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257837",
+    "data": "2024-01-27",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257838",
+    "data": "2024-01-28",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257844",
+    "data": "2024-02-03",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257851",
+    "data": "2024-02-10",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257852",
+    "data": "2024-02-11",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257858",
+    "data": "2024-02-17",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257859",
+    "data": "2024-02-18",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257865",
+    "data": "2024-02-24",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257866",
+    "data": "2024-02-25",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257872",
+    "data": "2024-03-02",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257873",
+    "data": "2024-03-03",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257879",
+    "data": "2024-03-09",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257880",
+    "data": "2024-03-10",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257893",
+    "data": "2024-03-23",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257894",
+    "data": "2024-03-24",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257900",
+    "data": "2024-03-30",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257907",
+    "data": "2024-04-06",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257908",
+    "data": "2024-04-07",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257914",
+    "data": "2024-04-13",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257915",
+    "data": "2024-04-14",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257921",
+    "data": "2024-04-20",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257922",
+    "data": "2024-04-21",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257928",
+    "data": "2024-04-27",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257929",
+    "data": "2024-04-28",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257935",
+    "data": "2024-05-04",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257936",
+    "data": "2024-05-05",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257942",
+    "data": "2024-05-11",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257943",
+    "data": "2024-05-12",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257949",
+    "data": "2024-05-18",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257956",
+    "data": "2024-05-25",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257957",
+    "data": "2024-05-26",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257963",
+    "data": "2024-06-01",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257964",
+    "data": "2024-06-02",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257970",
+    "data": "2024-06-08",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257971",
+    "data": "2024-06-09",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257977",
+    "data": "2024-06-15",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257984",
+    "data": "2024-06-22",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257985",
+    "data": "2024-06-23",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542257998",
+    "data": "2024-07-06",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542257999",
+    "data": "2024-07-07",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258005",
+    "data": "2024-07-13",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258006",
+    "data": "2024-07-14",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258012",
+    "data": "2024-07-20",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258013",
+    "data": "2024-07-21",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258019",
+    "data": "2024-07-27",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258020",
+    "data": "2024-07-28",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258026",
+    "data": "2024-08-03",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258027",
+    "data": "2024-08-04",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258033",
+    "data": "2024-08-10",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258034",
+    "data": "2024-08-11",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258054",
+    "data": "2024-08-31",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258055",
+    "data": "2024-09-01",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258061",
+    "data": "2024-09-07",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258062",
+    "data": "2024-09-08",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258068",
+    "data": "2024-09-14",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258069",
+    "data": "2024-09-15",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258075",
+    "data": "2024-09-21",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258076",
+    "data": "2024-09-22",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258082",
+    "data": "2024-09-28",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258083",
+    "data": "2024-09-29",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258096",
+    "data": "2024-10-12",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258097",
+    "data": "2024-10-13",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258103",
+    "data": "2024-10-19",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258104",
+    "data": "2024-10-20",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258110",
+    "data": "2024-10-26",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258111",
+    "data": "2024-10-27",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258117",
+    "data": "2024-11-02",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258118",
+    "data": "2024-11-03",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258124",
+    "data": "2024-11-09",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258125",
+    "data": "2024-11-10",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258131",
+    "data": "2024-11-16",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258132",
+    "data": "2024-11-17",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258139",
+    "data": "2024-11-24",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258145",
+    "data": "2024-11-30",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258152",
+    "data": "2024-12-07",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258159",
+    "data": "2024-12-14",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258160",
+    "data": "2024-12-15",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258166",
+    "data": "2024-12-21",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258167",
+    "data": "2024-12-22",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258173",
+    "data": "2024-12-28",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258174",
+    "data": "2024-12-29",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258180",
+    "data": "2025-01-04",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258187",
+    "data": "2025-01-11",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258188",
+    "data": "2025-01-12",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258194",
+    "data": "2025-01-18",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258195",
+    "data": "2025-01-19",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258201",
+    "data": "2025-01-25",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258202",
+    "data": "2025-01-26",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258208",
+    "data": "2025-02-01",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258209",
+    "data": "2025-02-02",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258215",
+    "data": "2025-02-08",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258216",
+    "data": "2025-02-09",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258222",
+    "data": "2025-02-15",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258223",
+    "data": "2025-02-16",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258229",
+    "data": "2025-02-22",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258230",
+    "data": "2025-02-23",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258236",
+    "data": "2025-03-01",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258237",
+    "data": "2025-03-02",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258243",
+    "data": "2025-03-08",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258244",
+    "data": "2025-03-09",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258250",
+    "data": "2025-03-15",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258251",
+    "data": "2025-03-16",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258257",
+    "data": "2025-03-22",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258264",
+    "data": "2025-03-29",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258265",
+    "data": "2025-03-30",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258271",
+    "data": "2025-04-05",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258272",
+    "data": "2025-04-06",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258278",
+    "data": "2025-04-12",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258279",
+    "data": "2025-04-13",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258285",
+    "data": "2025-04-19",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258292",
+    "data": "2025-04-26",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258293",
+    "data": "2025-04-27",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258299",
+    "data": "2025-05-03",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258300",
+    "data": "2025-05-04",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258307",
+    "data": "2025-05-11",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258313",
+    "data": "2025-05-17",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258314",
+    "data": "2025-05-18",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258320",
+    "data": "2025-05-24",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258321",
+    "data": "2025-05-25",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258327",
+    "data": "2025-05-31",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258328",
+    "data": "2025-06-01",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258334",
+    "data": "2025-06-07",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258335",
+    "data": "2025-06-08",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258341",
+    "data": "2025-06-14",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258342",
+    "data": "2025-06-15",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258348",
+    "data": "2025-06-21",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258349",
+    "data": "2025-06-22",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258355",
+    "data": "2025-06-28",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258356",
+    "data": "2025-06-29",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258362",
+    "data": "2025-07-05",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258363",
+    "data": "2025-07-06",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258376",
+    "data": "2025-07-19",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258377",
+    "data": "2025-07-20",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258390",
+    "data": "2025-08-02",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258391",
+    "data": "2025-08-03",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258397",
+    "data": "2025-08-09",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258398",
+    "data": "2025-08-10",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258425",
+    "data": "2025-09-06",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258426",
+    "data": "2025-09-07",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258432",
+    "data": "2025-09-13",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258433",
+    "data": "2025-09-14",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258439",
+    "data": "2025-09-20",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258440",
+    "data": "2025-09-21",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258446",
+    "data": "2025-09-27",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258447",
+    "data": "2025-09-28",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258453",
+    "data": "2025-10-04",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258461",
+    "data": "2025-10-12",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258467",
+    "data": "2025-10-18",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258468",
+    "data": "2025-10-19",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258475",
+    "data": "2025-10-26",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258482",
+    "data": "2025-11-02",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258488",
+    "data": "2025-11-08",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258489",
+    "data": "2025-11-09",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258495",
+    "data": "2025-11-15",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258496",
+    "data": "2025-11-16",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258502",
+    "data": "2025-11-22",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258503",
+    "data": "2025-11-23",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258509",
+    "data": "2025-11-29",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258516",
+    "data": "2025-12-06",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258517",
+    "data": "2025-12-07",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258523",
+    "data": "2025-12-13",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258524",
+    "data": "2025-12-14",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258530",
+    "data": "2025-12-20",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258531",
+    "data": "2025-12-21",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258544",
+    "data": "2026-01-03",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258545",
+    "data": "2026-01-04",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258551",
+    "data": "2026-01-10",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258552",
+    "data": "2026-01-11",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258558",
+    "data": "2026-01-17",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258559",
+    "data": "2026-01-18",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258565",
+    "data": "2026-01-24",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258566",
+    "data": "2026-01-25",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258572",
+    "data": "2026-01-31",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258573",
+    "data": "2026-02-01",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258579",
+    "data": "2026-02-07",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258580",
+    "data": "2026-02-08",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258586",
+    "data": "2026-02-14",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258587",
+    "data": "2026-02-15",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258593",
+    "data": "2026-02-21",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258594",
+    "data": "2026-02-22",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258600",
+    "data": "2026-02-28",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258607",
+    "data": "2026-03-07",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258608",
+    "data": "2026-03-08",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258614",
+    "data": "2026-03-14",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258615",
+    "data": "2026-03-15",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258621",
+    "data": "2026-03-21",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258622",
+    "data": "2026-03-22",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "11:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258628",
+    "data": "2026-03-28",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258629",
+    "data": "2026-03-29",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258635",
+    "data": "2026-04-04",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258642",
+    "data": "2026-04-11",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258643",
+    "data": "2026-04-12",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  },
+  {
+    "id": "1777542258649",
+    "data": "2026-04-18",
+    "dia_semana": "sáb",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "14:00",
+    "saida_tarde": "19:00",
+    "notas": ""
+  },
+  {
+    "id": "1777542258650",
+    "data": "2026-04-19",
+    "dia_semana": "dom",
+    "entrada_manha": "09:00",
+    "saida_manha": "12:00",
+    "entrada_tarde": "",
+    "saida_tarde": "",
+    "notas": ""
+  }
+]

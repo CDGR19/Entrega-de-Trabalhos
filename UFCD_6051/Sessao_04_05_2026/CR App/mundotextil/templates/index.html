@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name="theme-color" content="#0f172a"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<title>Banco de Horas · MundoTêxtil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+/* ── Reset & tokens ───────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #0f172a;
+  --surface:   #1e293b;
+  --surface2:  #273549;
+  --border:    #334155;
+  --accent:    #38bdf8;
+  --accent2:   #818cf8;
+  --pos:       #4ade80;
+  --neg:       #f87171;
+  --text:      #e2e8f0;
+  --muted:     #94a3b8;
+  --font-head: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --radius:    12px;
+  --radius-sm: 8px;
+}
+
+html { font-size: 15px; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  min-height: 100dvh;
+  line-height: 1.5;
+}
+
+/* ── Layout ───────────────────────────────────────────────────── */
+.app { display: flex; flex-direction: column; min-height: 100dvh; }
+
+/* ── Header ───────────────────────────────────────────────────── */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-left { display: flex; align-items: center; gap: 12px; }
+.logo-icon {
+  width: 38px; height: 38px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  border-radius: 10px;
+  display: grid; place-items: center;
+  font-size: 18px; flex-shrink: 0;
+}
+.header-title { font-family: var(--font-head); font-size: 1.1rem; font-weight: 700; }
+.header-sub   { font-size: .72rem; color: var(--muted); }
+.saldo-badge {
+  font-family: var(--font-mono);
+  font-size: .9rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+  transition: color .3s, border-color .3s;
+}
+
+/* ── Toolbar ──────────────────────────────────────────────────── */
+.toolbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 14px; border-radius: var(--radius-sm);
+  font-family: var(--font-body); font-size: .82rem; font-weight: 500;
+  border: none; cursor: pointer; transition: opacity .15s, transform .1s;
+  white-space: nowrap;
+}
+.btn:active { transform: scale(.97); }
+.btn-primary   { background: var(--accent);  color: #0f172a; }
+.btn-secondary { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+.btn-danger    { background: #7f1d1d; color: #fca5a5; border: 1px solid #991b1b; }
+
+.toolbar-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-left: auto; }
+select, input[type=text] {
+  background: var(--surface2); color: var(--text);
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 6px 10px; font-size: .82rem; font-family: var(--font-body);
+  outline: none; transition: border-color .2s;
+}
+select:focus, input[type=text]:focus { border-color: var(--accent); }
+input[type=text] { width: 160px; }
+input[type=text]::placeholder { color: var(--muted); }
+
+/* ── Main body ────────────────────────────────────────────────── */
+main { display: flex; flex: 1; gap: 0; overflow: hidden; }
+
+/* ── Sidebar saldos ───────────────────────────────────────────── */
+.sidebar {
+  width: 200px; flex-shrink: 0;
+  background: var(--surface);
+  border-right: 1px solid var(--border);
+  padding: 16px 12px;
+  overflow-y: auto;
+}
+.sidebar-title {
+  font-family: var(--font-head); font-size: .78rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .08em;
+  color: var(--muted); margin-bottom: 12px;
+}
+.saldo-ano {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 10px; border-radius: var(--radius-sm);
+  margin-bottom: 4px; transition: background .2s; cursor: default;
+}
+.saldo-ano:hover { background: var(--surface2); }
+.saldo-ano .ano-label { font-size: .85rem; font-weight: 500; }
+.saldo-ano .ano-val   { font-family: var(--font-mono); font-size: .82rem; }
+
+/* ── Table area ───────────────────────────────────────────────── */
+.table-wrap { flex: 1; overflow: auto; padding: 16px; }
+
+.stats-bar {
+  display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px;
+}
+.stat-chip {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-sm); padding: 6px 14px;
+  font-size: .8rem; color: var(--muted);
+}
+.stat-chip span { font-family: var(--font-mono); color: var(--text); font-weight: 500; }
+
+table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+thead th {
+  background: var(--surface); color: var(--muted);
+  font-family: var(--font-head); font-size: .72rem;
+  text-transform: uppercase; letter-spacing: .07em;
+  padding: 10px 12px; text-align: left;
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; cursor: pointer; user-select: none;
+  white-space: nowrap;
+}
+thead th:hover { color: var(--text); }
+tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background .15s;
+  cursor: pointer;
+}
+tbody tr:hover { background: var(--surface2); }
+tbody td { padding: 10px 12px; vertical-align: middle; }
+.td-data    { font-family: var(--font-mono); font-size: .8rem; white-space: nowrap; }
+.td-dia     { color: var(--muted); font-size: .78rem; white-space: nowrap; }
+.td-tipo    { }
+.td-horas   { font-family: var(--font-mono); font-weight: 500; text-align: right; white-space: nowrap; }
+.td-desc    { color: var(--muted); font-size: .78rem; max-width: 280px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pill {
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: .72rem; font-weight: 500; white-space: nowrap;
+}
+.pill-pos { background: #14532d; color: #4ade80; }
+.pill-neg { background: #450a0a; color: #f87171; }
+.pill-neu { background: var(--surface2); color: var(--muted); }
+.horas-pos { color: var(--pos); }
+.horas-neg { color: var(--neg); }
+
+.empty-state {
+  text-align: center; padding: 60px 20px;
+  color: var(--muted); font-size: .95rem;
+}
+.empty-state .icon { font-size: 2.5rem; margin-bottom: 12px; }
+
+/* ── Modal ────────────────────────────────────────────────────── */
+.overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.65);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 200; padding: 16px;
+  opacity: 0; pointer-events: none; transition: opacity .2s;
+}
+.overlay.open { opacity: 1; pointer-events: all; }
+.modal {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); width: 100%; max-width: 460px;
+  padding: 24px; transform: translateY(16px); transition: transform .2s;
+}
+.overlay.open .modal { transform: translateY(0); }
+.modal-title {
+  font-family: var(--font-head); font-size: 1.1rem; font-weight: 700;
+  margin-bottom: 20px; display: flex; align-items: center; gap: 8px;
+}
+.form-row { margin-bottom: 14px; }
+.form-row label { display: block; font-size: .8rem; color: var(--muted); margin-bottom: 5px; }
+.form-row input, .form-row select, .form-row textarea {
+  width: 100%;
+  background: var(--bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 9px 12px; font-size: .9rem; font-family: var(--font-body);
+  outline: none; transition: border-color .2s;
+}
+.form-row input:focus, .form-row select:focus, .form-row textarea:focus { border-color: var(--accent); }
+.form-row textarea { resize: vertical; min-height: 72px; }
+.form-hint { font-size: .75rem; color: var(--muted); margin-top: 4px; }
+.form-hint.pos { color: var(--pos); }
+.form-hint.neg { color: var(--neg); }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 20px; }
+
+/* ── Toast ────────────────────────────────────────────────────── */
+.toast {
+  position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(80px);
+  background: var(--surface2); border: 1px solid var(--border);
+  color: var(--text); padding: 10px 20px; border-radius: 999px;
+  font-size: .85rem; z-index: 300; transition: transform .3s;
+  pointer-events: none; white-space: nowrap;
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+  .td-desc { display: none; }
+  input[type=text] { width: 120px; }
+  .toolbar { padding: 8px 10px; }
+  .table-wrap { padding: 10px 6px; }
+  .btn { padding: 7px 10px; font-size: .78rem; }
+  table { font-size: .8rem; }
+  tbody td { padding: 9px 8px; }
+}
+@media (max-width: 480px) {
+  .td-dia, .td-desc { display: none; }
+  .toolbar-filters { width: 100%; }
+  input[type=text] { flex: 1; }
+}
+
+/* ── Loading ──────────────────────────────────────────────────── */
+.spinner {
+  width: 20px; height: 20px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin .6s linear infinite;
+  margin: 40px auto;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <div class="logo-icon"><img src="/static/MDT.png" alt="MT" style="width:32px;height:32px;object-fit:contain;border-radius:4px;"/></div>
+      <div>
+        <div class="header-title">Banco de Horas</div>
+        <div class="header-sub">MundoTêxtil · Demo</div>
+      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px"><div class="saldo-badge" id="saldoBadge">—</div><a href="javascript:void(0)" onclick="window.history.back()" style="font-size:.78rem;color:var(--muted);text-decoration:none;padding:5px 12px;border:1px solid var(--border);border-radius:999px;background:var(--surface2)" title="Sair">⎋ Sair</a></div>
+  </header>
+
+  <!-- Toolbar -->
+  <div class="toolbar">
+    <button class="btn btn-primary" onclick="abrirModal()">＋ Adicionar</button>
+    <button class="btn btn-secondary" id="btnEditar" onclick="editarSelecionado()" disabled>✏ Editar</button>
+    <button class="btn btn-danger"    id="btnEliminar" onclick="eliminarSelecionado()" disabled>✕ Eliminar</button>
+    <button class="btn btn-secondary" onclick="exportar('json')" title="Guardar cópia no PC">💾 JSON</button>
+    <button class="btn btn-secondary" onclick="exportar('excel')" title="Abrir no Excel">📊 Excel</button>
+
+    <div class="toolbar-filters">
+      <select id="filtroAno" onchange="carregar()">
+        <option value="todos">Todos os anos</option>
+      </select>
+      <select id="filtroTipo" onchange="carregar()">
+        <option value="todos">Todos os tipos</option>
+        <option>Horas Extra</option>
+        <option>Adaptabilidade</option>
+        <option>Horas Gozadas</option>
+        <option>Dias de Férias Gozados</option>
+        <option>Saída Antecipada</option>
+        <option>Ajustes RH</option>
+        <option>Substituição de Colega</option>
+        <option>Inventário</option>
+        <option>Falta de Obra</option>
+        <option>Outro (positivo)</option>
+        <option>Outro (negativo)</option>
+      </select>
+      <input type="text" id="pesquisa" placeholder="🔍 Pesquisar…" oninput="debounceCarregar()"/>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <main>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-title">Saldo por Ano</div>
+      <div id="saldosPorAno"><div class="spinner"></div></div>
+    </aside>
+
+    <!-- Table -->
+    <div class="table-wrap">
+      <div class="stats-bar">
+        <div class="stat-chip">Registos: <span id="statCount">—</span></div>
+        <div class="stat-chip">Filtrado: <span id="statFiltrado">—</span></div>
+      </div>
+
+      <table id="tabela">
+        <thead>
+          <tr>
+            <th onclick="ordenar('data')">Data ↕</th>
+            <th onclick="ordenar('dia_semana')">Dia ↕</th>
+            <th onclick="ordenar('tipo')">Tipo ↕</th>
+            <th onclick="ordenar('horas')" style="text-align:right">Horas ↕</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr><td colspan="5"><div class="spinner"></div></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="overlay" onclick="fecharModalFora(event)">
+  <div class="modal">
+    <div class="modal-title" id="modalTitulo">➕ Novo Registo</div>
+
+    <div class="form-row">
+      <label>Data</label>
+      <input type="date" id="fData"/>
+    </div>
+    <div class="form-row">
+      <label>Tipo / Regime</label>
+      <select id="fTipo" onchange="atualizarHint()">
+        <option>Horas Extra</option>
+        <option>Adaptabilidade</option>
+        <option>Horas Gozadas</option>
+        <option>Dias de Férias Gozados</option>
+        <option>Saída Antecipada</option>
+        <option>Ajustes RH</option>
+        <option>Substituição de Colega</option>
+        <option>Inventário</option>
+        <option>Falta de Obra</option>
+        <option>Outro (positivo)</option>
+        <option>Outro (negativo)</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <label>Nº de Horas <small>(valor absoluto, ex: 4)</small></label>
+      <input type="number" id="fHoras" min="0" step="0.5" placeholder="ex: 4"/>
+      <div class="form-hint" id="fHint"></div>
+    </div>
+    <div class="form-row">
+      <label>Descrição / Notas <small>(opcional)</small></label>
+      <textarea id="fDesc" placeholder="Ex: Substituir colega turno tarde"></textarea>
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="fecharModal()">Cancelar</button>
+      <button class="btn btn-primary"   onclick="guardarRegisto()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ── Estado ──────────────────────────────────────────────────────
+let registos   = [];
+let selecionado = null;
+let editandoId  = null;
+let sortCol     = "data";
+let sortAsc     = true;
+
+const TIPOS_POS = new Set([
+  "Horas Extra","Ajustes RH","Substituição de Colega","Inventário","Outro (positivo)"
+]);
+
+// ── Arranque ────────────────────────────────────────────────────
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("fData").value = hoje();
+  carregar();
+  carregarSaldosAno();
+  carregarFiltroAnos();
+});
+
+function hoje() {
+  return new Date().toISOString().split("T")[0];
+}
+
+// ── Carregar dados ──────────────────────────────────────────────
+let debTimer;
+function debounceCarregar() {
+  clearTimeout(debTimer);
+  debTimer = setTimeout(carregar, 350);
+}
+
+async function carregar() {
+  const ano   = document.getElementById("filtroAno").value;
+  const tipo  = document.getElementById("filtroTipo").value;
+  const texto = document.getElementById("pesquisa").value.trim();
+
+  const params = new URLSearchParams();
+  if (ano   !== "todos") params.set("ano", ano);
+  if (tipo  !== "todos") params.set("tipo", tipo);
+  if (texto)             params.set("q", texto);
+
+  const res  = await fetch("/api/registos?" + params);
+  const data = await res.json();
+
+  registos = data.registos;
+  renderTabela();
+  atualizarBadgeSaldo(data.saldo_total);
+  document.getElementById("statCount").textContent    = data.count;
+  document.getElementById("statFiltrado").textContent =
+    `${data.registos.reduce((s,r)=>s+r.horas,0).toFixed(1)}h`;
+  selecionado = null;
+  atualizarBotoes();
+}
+
+async function carregarSaldosAno() {
+  const res  = await fetch("/api/saldos_por_ano");
+  const rows = await res.json();
+  const div  = document.getElementById("saldosPorAno");
+  if (!rows.length) { div.innerHTML = '<p style="color:var(--muted);font-size:.8rem">Sem dados</p>'; return; }
+  div.innerHTML = rows.reverse().map(r => {
+    const cor   = r.total >= 0 ? "var(--pos)" : "var(--neg)";
+    const sinal = r.total >= 0 ? "+" : "";
+    return `<div class="saldo-ano">
+      <span class="ano-label">${r.ano}</span>
+      <span class="ano-val" style="color:${cor}">${sinal}${r.total}h</span>
+    </div>`;
+  }).join("");
+}
+
+async function carregarFiltroAnos() {
+  const res  = await fetch("/api/saldos_por_ano");
+  const rows = await res.json();
+  const sel  = document.getElementById("filtroAno");
+  rows.reverse().forEach(r => {
+    const opt = document.createElement("option");
+    opt.value = opt.textContent = r.ano;
+    sel.appendChild(opt);
+  });
+}
+
+// ── Render tabela ───────────────────────────────────────────────
+function renderTabela() {
+  const tbody = document.getElementById("tbody");
+  if (!registos.length) {
+    tbody.innerHTML = `<tr><td colspan="5">
+      <div class="empty-state"><div class="icon">📭</div>Sem registos para os filtros selecionados</div>
+    </td></tr>`;
+    return;
+  }
+
+  const sorted = [...registos].sort((a, b) => {
+    let va = a[sortCol], vb = b[sortCol];
+    if (sortCol === "horas") { va = +va; vb = +vb; }
+    else { va = String(va); vb = String(vb); }
+    return sortAsc ? (va > vb ? 1 : -1) : (va < vb ? 1 : -1);
+  });
+
+  tbody.innerHTML = sorted.map(r => {
+    const pos    = r.horas > 0;
+    const sinal  = pos ? "+" : "";
+    const hCls   = pos ? "horas-pos" : "horas-neg";
+    const pClass = pos ? "pill-pos" : "pill-neg";
+    const sel    = selecionado === r.id ? 'style="background:var(--surface2)"' : "";
+    return `<tr onclick="selecionar(${r.id})" ${sel} data-id="${r.id}">
+      <td class="td-data">${r.data}</td>
+      <td class="td-dia">${r.dia_semana}</td>
+      <td class="td-tipo"><span class="pill ${pClass}">${r.tipo}</span></td>
+      <td class="td-horas ${hCls}">${sinal}${r.horas}h</td>
+      <td class="td-desc">${r.descricao || ""}</td>
+    </tr>`;
+  }).join("");
+}
+
+function ordenar(col) {
+  if (sortCol === col) sortAsc = !sortAsc;
+  else { sortCol = col; sortAsc = true; }
+  renderTabela();
+}
+
+// ── Seleção ─────────────────────────────────────────────────────
+function selecionar(id) {
+  selecionado = selecionado === id ? null : id;
+  renderTabela();
+  atualizarBotoes();
+}
+
+function atualizarBotoes() {
+  const tem = selecionado !== null;
+  document.getElementById("btnEditar").disabled   = !tem;
+  document.getElementById("btnEliminar").disabled = !tem;
+}
+
+// ── Saldo badge ─────────────────────────────────────────────────
+function atualizarBadgeSaldo(total) {
+  const badge = document.getElementById("saldoBadge");
+  const sinal = total >= 0 ? "+" : "";
+  badge.textContent   = `Saldo: ${sinal}${total}h`;
+  badge.style.color   = total >= 0 ? "var(--pos)" : "var(--neg)";
+  badge.style.borderColor = total >= 0 ? "#166534" : "#7f1d1d";
+}
+
+// ── Modal ───────────────────────────────────────────────────────
+function abrirModal(registo) {
+  editandoId = registo ? registo.id : null;
+  document.getElementById("modalTitulo").textContent = registo ? "✏ Editar Registo" : "➕ Novo Registo";
+  document.getElementById("fData").value  = registo ? registo.data  : hoje();
+  document.getElementById("fTipo").value  = registo ? registo.tipo  : "Horas Extra";
+  document.getElementById("fHoras").value = registo ? Math.abs(registo.horas) : "";
+  document.getElementById("fDesc").value  = registo ? (registo.descricao || "") : "";
+  atualizarHint();
+  document.getElementById("overlay").classList.add("open");
+}
+
+function fecharModal() {
+  document.getElementById("overlay").classList.remove("open");
+  editandoId = null;
+}
+
+function fecharModalFora(e) {
+  if (e.target === document.getElementById("overlay")) fecharModal();
+}
+
+function atualizarHint() {
+  const tipo  = document.getElementById("fTipo").value;
+  const hint  = document.getElementById("fHint");
+  const isPos = TIPOS_POS.has(tipo);
+  hint.textContent  = isPos ? "✅ Adiciona horas ao saldo" : "⚠️ Desconta horas do saldo";
+  hint.className    = "form-hint " + (isPos ? "pos" : "neg");
+}
+
+async function guardarRegisto() {
+  const dataVal = document.getElementById("fData").value;
+  const tipo    = document.getElementById("fTipo").value;
+  const horasAb = parseFloat(document.getElementById("fHoras").value);
+  const desc    = document.getElementById("fDesc").value.trim();
+
+  if (!dataVal) { toast("⚠ Introduz uma data"); return; }
+  if (isNaN(horasAb) || horasAb <= 0) { toast("⚠ Introduz um valor de horas válido"); return; }
+
+  const isPos = TIPOS_POS.has(tipo);
+  const horas = isPos ? horasAb : -horasAb;
+
+  const payload = { data: dataVal, tipo, horas, descricao: desc };
+
+  let res;
+  if (editandoId) {
+    res = await fetch(`/api/registos/${editandoId}`, {
+      method: "PUT", headers: {"Content-Type":"application/json"},
+      body: JSON.stringify(payload)
+    });
+  } else {
+    res = await fetch("/api/registos", {
+      method: "POST", headers: {"Content-Type":"application/json"},
+      body: JSON.stringify(payload)
+    });
+  }
+
+  if (res.ok) {
+    fecharModal();
+    toast(editandoId ? "✅ Registo atualizado" : "✅ Registo adicionado");
+    await carregar();
+    await carregarSaldosAno();
+  } else {
+    toast("❌ Erro ao guardar");
+  }
+}
+
+// ── Editar / Eliminar ───────────────────────────────────────────
+function editarSelecionado() {
+  if (!selecionado) return;
+  const r = registos.find(x => x.id === selecionado);
+  if (r) abrirModal(r);
+}
+
+async function eliminarSelecionado() {
+  if (!selecionado) return;
+  if (!confirm("Eliminar este registo?")) return;
+  const res = await fetch(`/api/registos/${selecionado}`, { method: "DELETE" });
+  if (res.ok) {
+    toast("🗑 Registo eliminado");
+    selecionado = null;
+    atualizarBotoes();
+    await carregar();
+    await carregarSaldosAno();
+  }
+}
+
+// ── Exportar ────────────────────────────────────────────────────
+function exportar(formato) {
+  const url = `/api/exportar/${formato}`;
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  toast(formato === "json" ? "💾 A descarregar JSON..." : "📊 A descarregar Excel...");
+}
+
+// ── Toast ───────────────────────────────────────────────────────
+function toast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  setTimeout(() => el.classList.remove("show"), 2800);
+}
+</script>
+</body>
+</html>

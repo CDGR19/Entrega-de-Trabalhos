@@ -1,0 +1,714 @@
+[
+  {
+    "id": "1777454397103",
+    "data": "2022-07-16",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 2.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397104",
+    "data": "2022-07-23",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397105",
+    "data": "2022-07-30",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 2.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397106",
+    "data": "2022-08-01",
+    "dia_semana": "Segunda",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397107",
+    "data": "2022-08-02",
+    "dia_semana": "Terca",
+    "tipo": "Horas Gozadas",
+    "horas": -2.0,
+    "descricao": "Horas Pagas de Julho"
+  },
+  {
+    "id": "1777454397108",
+    "data": "2022-08-02",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397109",
+    "data": "2022-08-03",
+    "dia_semana": "Quarta",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397110",
+    "data": "2022-08-04",
+    "dia_semana": "Quinta",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397111",
+    "data": "2022-08-05",
+    "dia_semana": "Sexta",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397112",
+    "data": "2022-08-06",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397113",
+    "data": "2022-08-09",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": 2.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397114",
+    "data": "2022-08-11",
+    "dia_semana": "Quinta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397115",
+    "data": "2022-08-26",
+    "dia_semana": "Sexta",
+    "tipo": "Dias de Ferias Gozados",
+    "horas": -8.0,
+    "descricao": "Dias de Férias Gozados"
+  },
+  {
+    "id": "1777454397116",
+    "data": "2022-08-29",
+    "dia_semana": "Segunda",
+    "tipo": "Dias de Ferias Gozados",
+    "horas": -8.0,
+    "descricao": "Dias de Férias Gozados"
+  },
+  {
+    "id": "1777454397117",
+    "data": "2022-08-30",
+    "dia_semana": "Terca",
+    "tipo": "Dias de Ferias Gozados",
+    "horas": -8.0,
+    "descricao": "Dias de Férias Gozados"
+  },
+  {
+    "id": "1777454397118",
+    "data": "2022-08-31",
+    "dia_semana": "Quarta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397119",
+    "data": "2022-09-01",
+    "dia_semana": "Quinta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397120",
+    "data": "2022-09-02",
+    "dia_semana": "Sexta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397121",
+    "data": "2022-09-13",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397122",
+    "data": "2022-09-24",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397123",
+    "data": "2022-09-26",
+    "dia_semana": "Segunda",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397124",
+    "data": "2022-09-28",
+    "dia_semana": "Quarta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397125",
+    "data": "2022-09-30",
+    "dia_semana": "Sexta",
+    "tipo": "Saida Antecipada",
+    "horas": -3.5,
+    "descricao": "Saída Antecipada"
+  },
+  {
+    "id": "1777454397126",
+    "data": "2022-10-05",
+    "dia_semana": "Quarta",
+    "tipo": "Horas Extra",
+    "horas": 7.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397127",
+    "data": "2022-10-07",
+    "dia_semana": "Sexta",
+    "tipo": "Horas Extra",
+    "horas": 2.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397128",
+    "data": "2022-10-08",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397129",
+    "data": "2022-10-13",
+    "dia_semana": "Quinta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397130",
+    "data": "2022-10-14",
+    "dia_semana": "Sexta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397131",
+    "data": "2022-10-15",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397132",
+    "data": "2022-10-18",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": 1.5,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397133",
+    "data": "2022-10-20",
+    "dia_semana": "Quinta",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397134",
+    "data": "2022-10-21",
+    "dia_semana": "Sexta",
+    "tipo": "Horas Extra",
+    "horas": 2.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397135",
+    "data": "2022-10-24",
+    "dia_semana": "Segunda",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397136",
+    "data": "2022-10-25",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": 2.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397137",
+    "data": "2022-10-26",
+    "dia_semana": "Quarta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397138",
+    "data": "2022-10-27",
+    "dia_semana": "Quinta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397139",
+    "data": "2022-10-28",
+    "dia_semana": "Sexta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397140",
+    "data": "2022-10-31",
+    "dia_semana": "Segunda",
+    "tipo": "Horas Gozadas",
+    "horas": -8.0,
+    "descricao": "Horas Gozadas"
+  },
+  {
+    "id": "1777454397141",
+    "data": "2022-11-02",
+    "dia_semana": "Quarta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397142",
+    "data": "2022-11-03",
+    "dia_semana": "Quinta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397143",
+    "data": "2022-11-04",
+    "dia_semana": "Sexta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397144",
+    "data": "2022-11-08",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397145",
+    "data": "2022-11-21",
+    "dia_semana": "Segunda",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397146",
+    "data": "2022-11-30",
+    "dia_semana": "Quarta",
+    "tipo": "Falta de Obra",
+    "horas": -4.0,
+    "descricao": "Saída Antecipada por Falta de Obra"
+  },
+  {
+    "id": "1777454397147",
+    "data": "2022-12-02",
+    "dia_semana": "Sexta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397148",
+    "data": "2022-12-06",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397149",
+    "data": "2022-12-07",
+    "dia_semana": "Quarta",
+    "tipo": "Horas Extra",
+    "horas": 2.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397150",
+    "data": "2022-12-08",
+    "dia_semana": "Quinta",
+    "tipo": "Horas Extra",
+    "horas": -8.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397151",
+    "data": "2022-12-13",
+    "dia_semana": "Terca",
+    "tipo": "Horas Extra",
+    "horas": -1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397152",
+    "data": "2022-12-14",
+    "dia_semana": "Quarta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397153",
+    "data": "2022-12-15",
+    "dia_semana": "Quinta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397154",
+    "data": "2022-12-16",
+    "dia_semana": "Sexta",
+    "tipo": "Falta de Obra",
+    "horas": -2.0,
+    "descricao": "Saída Antecipada por Falta de Obra"
+  },
+  {
+    "id": "1777454397155",
+    "data": "2022-12-30",
+    "dia_semana": "Sexta",
+    "tipo": "Dias de Ferias Gozados",
+    "horas": -8.0,
+    "descricao": "Dias de Férias Gozados"
+  },
+  {
+    "id": "1777454397156",
+    "data": "2023-01-11",
+    "dia_semana": "Quarta",
+    "tipo": "Outro (negativo)",
+    "horas": -2.0,
+    "descricao": "Logística 08h30 - 14h00"
+  },
+  {
+    "id": "1777454397157",
+    "data": "2023-04-04",
+    "dia_semana": "Terca",
+    "tipo": "Substituicao de Colega",
+    "horas": 2.0,
+    "descricao": "Substituir Filipe"
+  },
+  {
+    "id": "1777454397158",
+    "data": "2023-04-27",
+    "dia_semana": "Quinta",
+    "tipo": "Substituicao de Colega",
+    "horas": 1.0,
+    "descricao": "Substituir Rui"
+  },
+  {
+    "id": "1777454397159",
+    "data": "2023-05-26",
+    "dia_semana": "Sexta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397160",
+    "data": "2023-05-29",
+    "dia_semana": "Segunda",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397161",
+    "data": "2023-06-16",
+    "dia_semana": "Sexta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397162",
+    "data": "2023-07-12",
+    "dia_semana": "Quarta",
+    "tipo": "Inventario",
+    "horas": 2.0,
+    "descricao": "Inventário"
+  },
+  {
+    "id": "1777454397163",
+    "data": "2023-09-07",
+    "dia_semana": "Quinta",
+    "tipo": "Substituicao de Colega",
+    "horas": 2.0,
+    "descricao": "Substituir Filipe"
+  },
+  {
+    "id": "1777454397164",
+    "data": "2023-11-17",
+    "dia_semana": "Sexta",
+    "tipo": "Substituicao de Colega",
+    "horas": 4.0,
+    "descricao": "Substituir Filipe"
+  },
+  {
+    "id": "1777454397165",
+    "data": "2023-11-23",
+    "dia_semana": "Quinta",
+    "tipo": "Substituicao de Colega",
+    "horas": 4.0,
+    "descricao": "Substituir Filipe"
+  },
+  {
+    "id": "1777454397166",
+    "data": "2024-01-02",
+    "dia_semana": "Terca",
+    "tipo": "Ajustes RH",
+    "horas": 40.0,
+    "descricao": "Ajustes RH"
+  },
+  {
+    "id": "1777454397167",
+    "data": "2024-07-06",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397168",
+    "data": "2024-07-31",
+    "dia_semana": "Quarta",
+    "tipo": "Outro (negativo)",
+    "horas": -3.0,
+    "descricao": "Inspeção da Mota IMT"
+  },
+  {
+    "id": "1777454397169",
+    "data": "2024-08-03",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397170",
+    "data": "2024-08-10",
+    "dia_semana": "Sabado",
+    "tipo": "Horas Extra",
+    "horas": 3.0,
+    "descricao": "Horas Extra"
+  },
+  {
+    "id": "1777454397171",
+    "data": "2024-09-06",
+    "dia_semana": "Sexta",
+    "tipo": "Outro (negativo)",
+    "horas": -1.0,
+    "descricao": "Ortopedia Riba D'Ave"
+  },
+  {
+    "id": "1777454397172",
+    "data": "2024-10-14",
+    "dia_semana": "Segunda",
+    "tipo": "Substituicao de Colega",
+    "horas": 1.0,
+    "descricao": "Substituir Filipe"
+  },
+  {
+    "id": "1777454397173",
+    "data": "2024-10-17",
+    "dia_semana": "Quinta",
+    "tipo": "Outro (negativo)",
+    "horas": -1.0,
+    "descricao": "Levar Focus à Oficina"
+  },
+  {
+    "id": "1777454397174",
+    "data": "2025-01-02",
+    "dia_semana": "Quinta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397175",
+    "data": "2025-01-03",
+    "dia_semana": "Sexta",
+    "tipo": "Adaptabilidade",
+    "horas": -8.0,
+    "descricao": "Adaptabilidade"
+  },
+  {
+    "id": "1777454397176",
+    "data": "2025-01-02",
+    "dia_semana": "Quinta",
+    "tipo": "Ajustes RH",
+    "horas": 1.0,
+    "descricao": "Ajustes RH"
+  },
+  {
+    "id": "1777454397177",
+    "data": "2025-04-07",
+    "dia_semana": "Segunda",
+    "tipo": "Substituicao de Colega",
+    "horas": 2.0,
+    "descricao": "Substituir Filipe"
+  },
+  {
+    "id": "1777454397178",
+    "data": "2025-09-17",
+    "dia_semana": "Quarta",
+    "tipo": "Outro (negativo)",
+    "horas": -8.0,
+    "descricao": "Consulta Ana Pós-parto"
+  },
+  {
+    "id": "1777454397179",
+    "data": "2025-09-25",
+    "dia_semana": "Quinta",
+    "tipo": "Outro (negativo)",
+    "horas": -5.0,
+    "descricao": "Consulta Dentista"
+  },
+  {
+    "id": "1777454397180",
+    "data": "2025-11-14",
+    "dia_semana": "Sexta",
+    "tipo": "Outro (negativo)",
+    "horas": -1.0,
+    "descricao": "-1.5"
+  },
+  {
+    "id": "1777454397181",
+    "data": "2025-11-21",
+    "dia_semana": "Sexta",
+    "tipo": "Outro (negativo)",
+    "horas": -1.0,
+    "descricao": "-0.5"
+  },
+  {
+    "id": "1777454397182",
+    "data": "2025-11-24",
+    "dia_semana": "Segunda",
+    "tipo": "Outro (negativo)",
+    "horas": -1.0,
+    "descricao": "-1.5"
+  },
+  {
+    "id": "1777454397183",
+    "data": "2025-12-19",
+    "dia_semana": "Sexta",
+    "tipo": "Horas Gozadas",
+    "horas": -8.0,
+    "descricao": "Dia Gozado"
+  },
+  {
+    "id": "1777454397184",
+    "data": "2025-12-23",
+    "dia_semana": "Terca",
+    "tipo": "Dias de Ferias Gozados",
+    "horas": 48.0,
+    "descricao": "6 Dias de Férias de Natal (23 a 31 Dez)"
+  },
+  {
+    "id": "1777454397185",
+    "data": "2026-01-02",
+    "dia_semana": "Sexta",
+    "tipo": "Dias de Ferias Gozados",
+    "horas": 8.0,
+    "descricao": "Dia de Férias 2026"
+  },
+  {
+    "id": "1777454397186",
+    "data": "2026-01-22",
+    "dia_semana": "Quinta",
+    "tipo": "Ajustes RH",
+    "horas": -8.0,
+    "descricao": "Ajuste de Dias"
+  },
+  {
+    "id": "1777454397187",
+    "data": "2026-01-23",
+    "dia_semana": "Sexta",
+    "tipo": "Ajustes RH",
+    "horas": -8.0,
+    "descricao": "Ajuste de Dias"
+  },
+  {
+    "id": "1777454397188",
+    "data": "2026-02-27",
+    "dia_semana": "Sexta",
+    "tipo": "Outro (negativo)",
+    "horas": -8.0,
+    "descricao": "Resolução Carta Finanças"
+  },
+  {
+    "id": "1777454397189",
+    "data": "2026-03-17",
+    "dia_semana": "Terca",
+    "tipo": "Outro (negativo)",
+    "horas": -1.0,
+    "descricao": "Barbeiro e ajuste 11h para entrar as 06h00 dia seguinte"
+  },
+  {
+    "id": "1777454397190",
+    "data": "2026-03-18",
+    "dia_semana": "Quarta",
+    "tipo": "Horas Extra",
+    "horas": 1.0,
+    "descricao": "Hora Extra para compensar dia anterior"
+  },
+  {
+    "id": "1777454397191",
+    "data": "2026-03-19",
+    "dia_semana": "Quinta",
+    "tipo": "Outro (negativo)",
+    "horas": -8.0,
+    "descricao": "Aniversário Iara"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "name": "Horas Hub",
+  "short_name": "Horas Hub",
+  "description": "Hub de Gestão de Horas — MundoTêxtil & BP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0e14",
+  "theme_color": "#0c0e14",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "MundoTêxtil",
+      "short_name": "MundoTêxtil",
+      "description": "Banco de Horas MundoTêxtil",
+      "url": "https://banco-de-horas-mundotextil.onrender.com",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "BP",
+      "short_name": "BP",
+      "description": "Registo de Horas BP",
+      "url": "https://registos-de-horas-bp.onrender.com",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

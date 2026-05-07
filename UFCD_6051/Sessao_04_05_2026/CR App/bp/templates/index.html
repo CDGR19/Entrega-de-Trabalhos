@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+<meta name="theme-color" content="#0a0f1e"/>
+<title>Registo de Horas · BP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0a0f1e;
+  --surface:#111827;
+  --surface2:#1a2235;
+  --border:#1f2d45;
+  --accent:#00c2ff;
+  --accent2:#f59e0b;
+  --green:#22c55e;
+  --text:#e5eaf5;
+  --muted:#6b7fa3;
+  --font-head:'Barlow',sans-serif;
+  --font-mono:'IBM Plex Mono',monospace;
+  --radius:10px;
+}
+html{font-size:15px}
+body{background:var(--bg);color:var(--text);font-family:var(--font-head);min-height:100dvh}
+
+/* Header */
+header{
+  background:var(--surface);
+  border-bottom:1px solid var(--border);
+  padding:12px 20px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  position:sticky;top:0;z-index:100;
+}
+.logo{display:flex;align-items:center;gap:12px}
+.logo-mark{
+  width:40px;height:40px;border-radius:10px;
+  background:linear-gradient(135deg,#00c2ff,#f59e0b);
+  display:grid;place-items:center;font-size:20px;flex-shrink:0;
+}
+.logo-text{font-size:1.1rem;font-weight:700;letter-spacing:-.01em}
+.logo-sub{font-size:.7rem;color:var(--muted);font-family:var(--font-mono)}
+.header-stats{display:flex;gap:16px;align-items:center}
+.stat-pill{
+  font-family:var(--font-mono);font-size:.82rem;
+  padding:5px 14px;border-radius:999px;
+  background:var(--surface2);border:1px solid var(--border);
+  white-space:nowrap;
+}
+.stat-pill.green{color:var(--green);border-color:#14532d}
+.stat-pill.amber{color:var(--accent2);border-color:#78350f}
+
+/* Toolbar */
+.toolbar{
+  background:var(--surface);border-bottom:1px solid var(--border);
+  padding:8px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;
+}
+.btn{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:7px 14px;border-radius:var(--radius);
+  font-family:var(--font-head);font-size:.82rem;font-weight:600;
+  border:none;cursor:pointer;transition:opacity .15s,transform .1s;white-space:nowrap;
+}
+.btn:active{transform:scale(.97)}
+.btn-primary{background:var(--accent);color:#0a0f1e}
+.btn-secondary{background:var(--surface2);color:var(--text);border:1px solid var(--border)}
+.btn-danger{background:#7f1d1d;color:#fca5a5;border:1px solid #991b1b}
+.toolbar-right{display:flex;flex-wrap:wrap;gap:6px;margin-left:auto}
+select,input[type=text]{
+  background:var(--surface2);color:var(--text);
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:6px 10px;font-size:.82rem;font-family:var(--font-head);
+  outline:none;transition:border-color .2s;
+}
+select:focus,input[type=text]:focus{border-color:var(--accent)}
+
+/* Layout */
+main{display:flex;flex:1;overflow:hidden;min-height:calc(100dvh - 108px)}
+
+/* Sidebar */
+.sidebar{
+  width:190px;flex-shrink:0;
+  background:var(--surface);border-right:1px solid var(--border);
+  padding:14px 10px;overflow-y:auto;
+}
+.sidebar-title{
+  font-family:var(--font-mono);font-size:.68rem;font-weight:500;
+  text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:10px;
+}
+.saldo-ano{
+  display:flex;flex-direction:column;
+  padding:8px 10px;border-radius:var(--radius);margin-bottom:6px;
+  background:var(--surface2);border:1px solid var(--border);
+}
+.saldo-ano .ano{font-size:.8rem;font-weight:600;margin-bottom:4px}
+.saldo-ano .h{font-family:var(--font-mono);font-size:.78rem;color:var(--green)}
+.saldo-ano .e{font-family:var(--font-mono);font-size:.78rem;color:var(--accent2)}
+
+/* Table */
+.table-wrap{flex:1;overflow:auto;padding:14px}
+.stats-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.sc{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);padding:5px 14px;font-size:.79rem;color:var(--muted);
+}
+.sc span{font-family:var(--font-mono);color:var(--text);font-weight:500}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+thead th{
+  background:var(--surface);color:var(--muted);
+  font-family:var(--font-mono);font-size:.68rem;text-transform:uppercase;letter-spacing:.08em;
+  padding:9px 10px;text-align:left;border-bottom:1px solid var(--border);
+  position:sticky;top:0;cursor:pointer;user-select:none;white-space:nowrap;
+}
+thead th:hover{color:var(--text)}
+tbody tr{border-bottom:1px solid var(--border);transition:background .12s;cursor:pointer}
+tbody tr:hover{background:var(--surface2)}
+tbody tr.sel{background:var(--surface2);outline:1px solid var(--accent)}
+tbody td{padding:9px 10px;vertical-align:middle}
+.td-data{font-family:var(--font-mono);font-size:.78rem;white-space:nowrap}
+.td-dia{
+  font-family:var(--font-mono);font-size:.72rem;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.05em;
+}
+.td-hora{font-family:var(--font-mono);font-size:.78rem;color:var(--muted);white-space:nowrap}
+.td-total{font-family:var(--font-mono);font-weight:500;color:var(--green);white-space:nowrap}
+.td-ganhos{font-family:var(--font-mono);font-weight:500;color:var(--accent2);white-space:nowrap}
+.td-notas{font-size:.76rem;color:var(--muted);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.zero{opacity:.3}
+.empty-state{text-align:center;padding:60px 20px;color:var(--muted)}
+.empty-state .icon{font-size:2.5rem;margin-bottom:12px}
+
+/* Modal */
+.overlay{
+  position:fixed;inset:0;background:rgba(0,0,0,.7);
+  display:flex;align-items:center;justify-content:center;
+  z-index:200;padding:16px;opacity:0;pointer-events:none;transition:opacity .2s;
+}
+.overlay.open{opacity:1;pointer-events:all}
+.modal{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;width:100%;max-width:480px;padding:24px;
+  transform:translateY(20px);transition:transform .2s;
+}
+.overlay.open .modal{transform:translateY(0)}
+.modal-title{font-size:1.05rem;font-weight:700;margin-bottom:18px;display:flex;align-items:center;gap:8px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-row{margin-bottom:0}
+.form-row.full{grid-column:1/-1}
+.form-row label{display:block;font-size:.75rem;color:var(--muted);margin-bottom:4px;font-family:var(--font-mono);text-transform:uppercase;letter-spacing:.06em}
+.form-row input,.form-row select,.form-row textarea{
+  width:100%;background:var(--bg);color:var(--text);
+  border:1px solid var(--border);border-radius:var(--radius);
+  padding:9px 12px;font-size:.88rem;font-family:var(--font-head);
+  outline:none;transition:border-color .2s;
+}
+.form-row input:focus,.form-row select:focus,.form-row textarea:focus{border-color:var(--accent)}
+.form-row textarea{resize:vertical;min-height:60px}
+.form-sep{grid-column:1/-1;border:none;border-top:1px solid var(--border);margin:4px 0}
+.form-preview{
+  grid-column:1/-1;background:var(--bg);border:1px solid var(--border);
+  border-radius:var(--radius);padding:10px 14px;
+  font-family:var(--font-mono);font-size:.82rem;
+  display:flex;gap:20px;
+}
+.form-preview .fh{color:var(--green)}
+.form-preview .fe{color:var(--accent2)}
+.modal-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
+
+/* Toast */
+.toast{
+  position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(80px);
+  background:var(--surface2);border:1px solid var(--border);
+  color:var(--text);padding:10px 20px;border-radius:999px;
+  font-size:.83rem;z-index:300;transition:transform .3s;pointer-events:none;white-space:nowrap;
+}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+/* Spinner */
+.spinner{
+  width:20px;height:20px;border:2px solid var(--border);
+  border-top-color:var(--accent);border-radius:50%;
+  animation:spin .6s linear infinite;margin:40px auto;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Responsive */
+@media(max-width:768px){
+  .sidebar{display:none}
+  .td-hora,.td-notas{display:none}
+  .header-stats .stat-pill:last-child{display:none}
+  input[type=text]{width:110px}
+}
+@media(max-width:480px){
+  .form-grid{grid-template-columns:1fr}
+  .form-row.full{grid-column:1}
+  .form-sep,.form-preview{display:none}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-mark"><img src="/static/BP.png" alt="BP" style="width:32px;height:32px;object-fit:contain;"/></div>
+    <div>
+      <div class="logo-text">Part-Time BP</div>
+      <div class="logo-sub"  id="taxaDisplay">5.00 € / hora</div>
+    </div>
+  </div>
+  <div class="header-stats" style="display:flex;align-items:center;gap:10px">
+    <div class="stat-pill green" id="statHoras">— h</div>
+    <div class="stat-pill amber" id="statGanhos">— €</div><a href="javascript:void(0)" onclick="window.history.back()" style="font-size:.75rem;color:var(--muted);text-decoration:none;padding:5px 12px;border:1px solid var(--border);border-radius:999px;background:var(--surface2)" title="Sair">⎋ Sair</a>
+  </div>
+</header>
+
+<div class="toolbar">
+  <button class="btn btn-primary" onclick="abrirModal()">＋ Adicionar</button>
+  <button class="btn btn-secondary" id="btnEditar" onclick="editarSelecionado()" disabled>✏ Editar</button>
+  <button class="btn btn-danger"   id="btnEliminar" onclick="eliminarSelecionado()" disabled>✕ Eliminar</button>
+  <button class="btn btn-secondary" onclick="exportar('json')">💾 JSON</button>
+  <button class="btn btn-secondary" onclick="exportar('excel')">📊 Excel</button>
+    <button class="btn btn-secondary" onclick="abrirConfigTaxa()" title="Alterar taxa por hora">⚙️ Taxa/hora</button>
+
+  <div class="toolbar-right">
+    <select id="filtroAno" onchange="carregar()">
+      <option value="todos">Todos os anos</option>
+    </select>
+    <select id="filtroMes" onchange="carregar()">
+      <option value="todos">Todos os meses</option>
+      <option value="1">Janeiro</option><option value="2">Fevereiro</option>
+      <option value="3">Março</option><option value="4">Abril</option>
+      <option value="5">Maio</option><option value="6">Junho</option>
+      <option value="7">Julho</option><option value="8">Agosto</option>
+      <option value="9">Setembro</option><option value="10">Outubro</option>
+      <option value="11">Novembro</option><option value="12">Dezembro</option>
+    </select>
+  </div>
+</div>
+
+<main>
+  <aside class="sidebar">
+    <div class="sidebar-title">Por Ano</div>
+    <div id="saldosPorAno"><div class="spinner"></div></div>
+  </aside>
+
+  <div class="table-wrap">
+    <div class="stats-bar">
+      <div class="sc">Registos: <span id="scCount">—</span></div>
+      <div class="sc">Horas (filtro): <span id="scHoras">—</span></div>
+      <div class="sc">Ganhos (filtro): <span id="scGanhos">—</span></div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th onclick="ordenar('data')">Data ↕</th>
+          <th>Dia</th>
+          <th onclick="ordenar('entrada_manha')">Manhã</th>
+          <th onclick="ordenar('entrada_tarde')">Tarde</th>
+          <th onclick="ordenar('horas_total')">Horas ↕</th>
+          <th onclick="ordenar('ganhos')">Ganhos ↕</th>
+          <th>Notas</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+        <tr><td colspan="7"><div class="spinner"></div></td></tr>
+      </tbody>
+    </table>
+  </div>
+</main>
+
+<!-- Modal -->
+<div class="overlay" id="overlay" onclick="fecharFora(event)">
+  <div class="modal">
+    <div class="modal-title" id="modalTitulo">➕ Novo Registo</div>
+    <div class="form-grid">
+      <div class="form-row full">
+        <label>Data</label>
+        <input type="date" id="fData" onchange="calcPreview()"/>
+      </div>
+      <hr class="form-sep"/>
+      <div class="form-row">
+        <label>Entrada Manhã</label>
+        <input type="time" id="fEM" oninput="calcPreview()"/>
+      </div>
+      <div class="form-row">
+        <label>Saída Manhã</label>
+        <input type="time" id="fSM" oninput="calcPreview()"/>
+      </div>
+      <div class="form-row">
+        <label>Entrada Tarde</label>
+        <input type="time" id="fET" oninput="calcPreview()"/>
+      </div>
+      <div class="form-row">
+        <label>Saída Tarde</label>
+        <input type="time" id="fST" oninput="calcPreview()"/>
+      </div>
+      <div class="form-preview">
+        <span>Horas: <span class="fh" id="prevH">0.00h</span></span>
+        <span>Ganhos: <span class="fe" id="prevE">0.00€</span></span>
+      </div>
+      <div class="form-row full">
+        <label>Notas</label>
+        <textarea id="fNotas" placeholder="Opcional..."></textarea>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="fecharModal()">Cancelar</button>
+      <button class="btn btn-primary"   onclick="guardar()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<!-- Modal Taxa -->
+<div class="overlay" id="overlayTaxa" onclick="fecharTaxaFora(event)">
+  <div class="modal">
+    <div class="modal-title">⚙️ Taxa por Hora</div>
+    <div class="form-grid">
+      <div class="form-row full">
+        <label>Valor por hora (€)</label>
+        <input type="number" id="fTaxa" min="0" step="0.01" placeholder="ex: 5.00"/>
+        <div style="margin-top:6px;font-size:.78rem;color:var(--muted)">Ao guardar, todos os ganhos são recalculados automaticamente.</div>
+      </div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="fecharConfigTaxa()">Cancelar</button>
+      <button class="btn btn-primary" onclick="guardarTaxa()">Guardar</button>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script>
+let TAXA = 5.0;
+let registos = [], selecionado = null, editandoId = null;
+let sortCol = "data", sortAsc = true;
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("fData").value = hoje();
+  carregar();
+});
+
+function hoje() { return new Date().toISOString().split("T")[0]; }
+
+async function carregar() {
+  const ano = document.getElementById("filtroAno").value;
+  const mes = document.getElementById("filtroMes").value;
+  const p   = new URLSearchParams();
+  if (ano !== "todos") p.set("ano", ano);
+  if (mes !== "todos") p.set("mes", mes);
+
+  const res  = await fetch("/api/registos?" + p);
+  const data = await res.json();
+  registos   = data.registos;
+  if (data.taxa) {
+    TAXA = data.taxa;
+    document.getElementById("taxaDisplay").textContent = data.taxa.toFixed(2) + " € / hora";
+  }
+
+  renderTabela();
+  atualizarHeader(data);
+  atualizarSidebar(data.saldos_ano);
+  atualizarFiltroAnos(data.saldos_ano);
+
+  document.getElementById("scCount").textContent  = data.count;
+  document.getElementById("scHoras").textContent  = data.total_horas.toFixed(2) + "h";
+  document.getElementById("scGanhos").textContent = data.total_ganhos.toFixed(2) + "€";
+}
+
+function atualizarHeader(data) {
+  const th = db_total_horas();
+  const tg = db_total_ganhos();
+  document.getElementById("statHoras").textContent  = th.toFixed(2) + "h";
+  document.getElementById("statGanhos").textContent = tg.toFixed(2) + "€";
+}
+
+// totais globais via saldos_ano
+let _saldos = [];
+function db_total_horas()  { return _saldos.reduce((s,r)=>s+r.horas, 0); }
+function db_total_ganhos() { return _saldos.reduce((s,r)=>s+r.ganhos, 0); }
+
+function atualizarSidebar(saldos) {
+  _saldos = saldos;
+  const div = document.getElementById("saldosPorAno");
+  if (!saldos.length) { div.innerHTML = '<p style="color:var(--muted);font-size:.8rem">Sem dados</p>'; return; }
+  div.innerHTML = [...saldos].reverse().map(r => `
+    <div class="saldo-ano">
+      <span class="ano">${r.ano}</span>
+      <span class="h">${r.horas.toFixed(1)}h</span>
+      <span class="e">${r.ganhos.toFixed(2)}€</span>
+    </div>`).join("");
+  document.getElementById("statHoras").textContent  = db_total_horas().toFixed(2)  + "h";
+  document.getElementById("statGanhos").textContent = db_total_ganhos().toFixed(2) + "€";
+}
+
+function atualizarFiltroAnos(saldos) {
+  const sel = document.getElementById("filtroAno");
+  const cur = sel.value;
+  sel.innerHTML = '<option value="todos">Todos os anos</option>' +
+    [...saldos].reverse().map(r => `<option value="${r.ano}">${r.ano}</option>`).join("");
+  sel.value = cur;
+}
+
+function renderTabela() {
+  const tbody = document.getElementById("tbody");
+  const com   = registos.filter(r => r.horas_total > 0);
+  const todos = [...registos].sort((a,b) => {
+    let va = a[sortCol] ?? "", vb = b[sortCol] ?? "";
+    if (typeof va === "number") return sortAsc ? va-vb : vb-va;
+    return sortAsc ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+  });
+
+  if (!com.length && registos.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="7"><div class="empty-state"><div class="icon">📭</div>Sem registos</div></td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = todos.map(r => {
+    const zero = r.horas_total === 0;
+    const cls  = `${zero ? "zero" : ""} ${selecionado === r.id ? "sel" : ""}`;
+    const manha = r.entrada_manha && r.saida_manha ? `${r.entrada_manha}–${r.saida_manha}` : "—";
+    const tarde = r.entrada_tarde && r.saida_tarde ? `${r.entrada_tarde}–${r.saida_tarde}` : "—";
+    return `<tr class="${cls}" onclick="selecionar(${r.id})" data-id="${r.id}">
+      <td class="td-data">${r.data}</td>
+      <td class="td-dia">${r.dia_semana}</td>
+      <td class="td-hora">${manha}</td>
+      <td class="td-hora">${tarde}</td>
+      <td class="td-total">${zero ? "—" : r.horas_total.toFixed(2)+"h"}</td>
+      <td class="td-ganhos">${zero ? "—" : r.ganhos.toFixed(2)+"€"}</td>
+      <td class="td-notas">${r.notas || ""}</td>
+    </tr>`;
+  }).join("");
+}
+
+function ordenar(col) {
+  sortAsc = sortCol === col ? !sortAsc : true;
+  sortCol = col;
+  renderTabela();
+}
+
+function selecionar(id) {
+  selecionado = selecionado === id ? null : id;
+  renderTabela();
+  const tem = selecionado !== null;
+  document.getElementById("btnEditar").disabled   = !tem;
+  document.getElementById("btnEliminar").disabled = !tem;
+}
+
+// ── Modal ─────────────────────────────────────────────────────────
+function abrirModal(r) {
+  editandoId = r ? r.id : null;
+  document.getElementById("modalTitulo").textContent = r ? "✏ Editar Registo" : "➕ Novo Registo";
+  document.getElementById("fData").value   = r ? r.data            : hoje();
+  document.getElementById("fEM").value     = r ? (r.entrada_manha || "") : "";
+  document.getElementById("fSM").value     = r ? (r.saida_manha   || "") : "";
+  document.getElementById("fET").value     = r ? (r.entrada_tarde  || "") : "";
+  document.getElementById("fST").value     = r ? (r.saida_tarde    || "") : "";
+  document.getElementById("fNotas").value  = r ? (r.notas          || "") : "";
+  calcPreview();
+  document.getElementById("overlay").classList.add("open");
+}
+
+function fecharModal() { document.getElementById("overlay").classList.remove("open"); editandoId = null; }
+function fecharFora(e) { if (e.target === document.getElementById("overlay")) fecharModal(); }
+
+function calcPreview() {
+  const toMin = (a, b) => {
+    if (!a || !b) return 0;
+    const [ah,am] = a.split(":").map(Number);
+    const [bh,bm] = b.split(":").map(Number);
+    const diff = (bh*60+bm) - (ah*60+am);
+    return diff > 0 ? diff : 0;
+  };
+  const min = toMin(document.getElementById("fEM").value, document.getElementById("fSM").value)
+            + toMin(document.getElementById("fET").value, document.getElementById("fST").value);
+  const h = min / 60;
+  const e = h * TAXA;
+  document.getElementById("prevH").textContent = h.toFixed(2) + "h";
+  document.getElementById("prevE").textContent = e.toFixed(2) + "€";
+}
+
+async function guardar() {
+  const dataVal = document.getElementById("fData").value;
+  if (!dataVal) { toast("⚠ Introduz uma data"); return; }
+  const payload = {
+    data:          dataVal,
+    entrada_manha: document.getElementById("fEM").value || "",
+    saida_manha:   document.getElementById("fSM").value || "",
+    entrada_tarde: document.getElementById("fET").value || "",
+    saida_tarde:   document.getElementById("fST").value || "",
+    notas:         document.getElementById("fNotas").value.trim(),
+  };
+  const url    = editandoId ? `/api/registos/${editandoId}` : "/api/registos";
+  const method = editandoId ? "PUT" : "POST";
+  const res    = await fetch(url, { method, headers:{"Content-Type":"application/json"}, body: JSON.stringify(payload) });
+  if (res.ok) {
+    fecharModal();
+    toast(editandoId ? "✅ Registo atualizado" : "✅ Registo adicionado");
+    await carregar();
+  } else { toast("❌ Erro ao guardar"); }
+}
+
+function editarSelecionado() {
+  if (!selecionado) return;
+  const r = registos.find(x => x.id === selecionado);
+  if (r) abrirModal(r);
+}
+
+async function eliminarSelecionado() {
+  if (!selecionado) return;
+  if (!confirm("Eliminar este registo?")) return;
+  const res = await fetch(`/api/registos/${selecionado}`, { method: "DELETE" });
+  if (res.ok) {
+    toast("🗑 Eliminado");
+    selecionado = null;
+    document.getElementById("btnEditar").disabled   = true;
+    document.getElementById("btnEliminar").disabled = true;
+    await carregar();
+  }
+}
+
+function exportar(fmt) {
+  const a = document.createElement("a");
+  a.href = `/api/exportar/${fmt}`;
+  a.download = "";
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  toast(fmt === "json" ? "💾 A descarregar JSON..." : "📊 A descarregar Excel...");
+}
+
+// ── Taxa config ───────────────────────────────────────────────
+async function abrirConfigTaxa() {
+  const res  = await fetch("/api/configuracao/taxa");
+  const data = await res.json();
+  document.getElementById("fTaxa").value = data.taxa;
+  document.getElementById("overlayTaxa").classList.add("open");
+}
+
+function fecharConfigTaxa() {
+  document.getElementById("overlayTaxa").classList.remove("open");
+}
+
+function fecharTaxaFora(e) {
+  if (e.target === document.getElementById("overlayTaxa")) fecharConfigTaxa();
+}
+
+async function guardarTaxa() {
+  const taxa = parseFloat(document.getElementById("fTaxa").value);
+  if (isNaN(taxa) || taxa <= 0) { toast("Introduz uma taxa valida"); return; }
+  const res = await fetch("/api/configuracao/taxa", {
+    method: "PUT",
+    headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({ taxa })
+  });
+  if (res.ok) {
+    TAXA = taxa;
+    document.getElementById("taxaDisplay").textContent = taxa.toFixed(2) + " € / hora";
+    fecharConfigTaxa();
+    toast("Taxa atualizada para " + taxa.toFixed(2) + "EUR/h");
+    await carregar();
+  } else {
+    toast("Erro ao guardar taxa");
+  }
+}
+function toast(msg) {
+  const el = document.getElementById("toast");
+  el.textContent = msg;
+  el.classList.add("show");
+  setTimeout(() => el.classList.remove("show"), 2800);
+}
+</script>
+</body>
+</html>
